@@ -1,4 +1,4 @@
 interface:
-  display_name: "照片双区风格海报"
-  short_description: "上传照片后选择三种交付方式与四种互斥画风，生成双区编辑海报"
-  default_prompt: "Use $photo-dual-panel-editorial for my uploaded photos, ask whether I want images, prompts, or both plus one visual style, then follow my choices."
+  display_name: "photo-dual-panel-editorial｜照片双区风格海报"
+  short_description: "支持三种交付方式与五十二种互斥画风，按所选布局生成编辑海报"
+  default_prompt: "Use $photo-dual-panel-editorial for my uploaded photos. Show the visual style gallery if I have not selected a style, ask whether I want images, prompts, or both if needed, and follow my choices."
