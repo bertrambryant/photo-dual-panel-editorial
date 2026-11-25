@@ -1,8 +1,8 @@
 # 画风示例图片
 
-下载仓库后，在浏览器打开 `gallery.html`。可按编号、名称和关键词搜索，也可按表现方式筛选。选 2–3 种后，点「查看对比」即可并排查看。
+[打开画风图鉴](gallery.html)，可按表现方式筛选，或搜索编号、名称和关键词。点海报放大，在大图中换样片、复制用于对话选画风的指令，或加入对比。选 2–3 种后，点「查看对比」即可并排查看。
 
-本目录收录各画风的 WebP 示例预览，供浏览和比较。运行技能时以对应画风规范和当前用户图片为准。索引中标为版式参考的原尺寸 PNG 可用于复现对应提示词。预览图仅供浏览。
+本目录收录各画风的 WebP 示例预览，供浏览和比较。[按编号查看全部画风的通用整图提示词](../references/styles.md)。标注「可直接复制的整图提示词」的示例链接适用于对应的原图。运行技能时以对应画风规范和当前用户图片为准。索引中标为版式参考的原尺寸 PNG 可用于复现对应提示词。预览图仅供浏览。标有「历史制作记录」的链接可用于复查示例的生成过程。
 
 ## 1. 等距微缩纸模
 
@@ -14,11 +14,29 @@
 
 ![Veiled Horizon](isometric-miniature/veiled-horizon.webp)
 
+### Harbor Spire · 水岸尖塔
+
+![Harbor Spire](isometric-miniature/harbor-spire.webp)
+
+上半略裁天空与前景水面，沿两侧延展原有水岸。下半把红砖亭、深灰尖塔、风向标和黄色系船桩收进一座等距纸模。 [可直接复制的整图提示词](isometric-miniature/harbor-spire/harbor-spire-prompt.md)。
+
 ## 2. 分层纸雕浮雕
 
 ### Folded Light · 概念建筑
 
 ![Folded Light](layered-paper-relief/folded-light.webp)
+
+### Rising Steam · 火山
+
+![Rising Steam](layered-paper-relief/rising-steam.webp)
+
+上半等比取景，保留火山口、蒸汽柱和受光山脊。下半以炭灰和赭褐纸片叠出火山口与近坡，乳白纸层从口内升起。 [可直接复制的整图提示词](layered-paper-relief/rising-steam/rising-steam-prompt.md)。
+
+### Amber Shore · 海岸
+
+![Amber Shore](layered-paper-relief/amber-shore.webp)
+
+上半等比取景，保留海崖、沙滩与潮线。下半用赭金草坡、浅沙和细窄的灰绿浪层表现海湾的纵深。 [可直接复制的整图提示词](layered-paper-relief/amber-shore/amber-shore-prompt.md)。
 
 ## 3. 档案蚀刻线描
 
@@ -48,11 +66,33 @@
 
 ![Gentle Armor](modernist-geometric/gentle-armor.webp)
 
+### Reed Wind · 红衣与芒草
+
+![Reed Wind](modernist-geometric/reed-wind.webp)
+
+上半保留原照的逆光与署名。下半用朱红折面归纳衣袍，以浅金弧面表现芒草从人物身前掠过的走势。 [可直接复制的整图提示词](modernist-geometric/reed-wind/reed-wind-prompt.md)。
+
 ## 5. 水墨扁平解构
 
 ### Pastoral Orbit · 环状天体与牧场
 
 ![Pastoral Orbit](ink-flat-deconstruction/pastoral-orbit-test.webp)
+
+### Street Crossing · 街谷与过街行人
+
+![Street Crossing](ink-flat-deconstruction/street-crossing.webp)
+
+上半保留原照中央的塔楼、街巷与过街动作，两侧沿既有街面和建筑延展。下半用淡墨边缘组织深色石楼与红砖拱窗，保留行人和犬群的位置关系。 [可直接复制的整图提示词](ink-flat-deconstruction/street-crossing/street-crossing-prompt.md)。
+
+[原尺寸扩景版式参考](ink-flat-deconstruction/street-crossing/working/outpaint-guide.png)用于上半补边，[对应原照](ink-flat-deconstruction/street-crossing/source-photo.jpg)用于下半水墨转绘。
+
+### Bayward Slope · 坡街与海湾
+
+![Bayward Slope](ink-flat-deconstruction/bayward-slope.webp)
+
+上半等比取景并向两侧延展，保留右侧凸窗、坡街中轴和海湾。下半以低饱和暖棕、苔绿与青灰色层表现街区、远桥和山线。 [可直接复制的整图提示词](ink-flat-deconstruction/bayward-slope/bayward-slope-prompt.md)。
+
+[原尺寸扩景版式参考](ink-flat-deconstruction/bayward-slope/working/outpaint-guide.png)用于上半补边，[对应原照](ink-flat-deconstruction/bayward-slope/source-photo.jpg)用于下半水墨转绘。
 
 ## 6. 光栅形变场域
 
@@ -63,6 +103,12 @@
 ### Ridge in Silence · 云雾山脊
 
 ![Ridge in Silence](grating-deformation-field/ridge-in-silence-color-test.webp)
+
+### Autumn Current · 秋叶与捧花人物
+
+![Autumn Current](grating-deformation-field/autumn-current.webp)
+
+上半略裁顶部树冠并向两侧补景，保留捧花与伸手的动作。下半用横向细线的弯曲与疏密显出人物，把金黄树冠、深绿树荫和橙色花束映射到相应的线段。 [可直接复制的整图提示词](grating-deformation-field/autumn-current/autumn-current-prompt.md)。
 
 ## 7. 稚拙马克笔涂鸦
 
@@ -116,6 +162,12 @@
 
 ![After Hours](surreal-risograph-motion/after-hours.webp)
 
+### Windward · 枯草坡上的海鹦
+
+![Windward](surreal-risograph-motion/windward.webp)
+
+上半裁去部分天空并向两侧延展山坡和枯草，保留海鹦原有的姿态和橙红色喙。下半用板岩蓝灰油墨印出海鹦，断线与粗网点沿右上方渐疏，消散在象牙白纸面上。 [可直接复制的整图提示词](surreal-risograph-motion/windward/windward-prompt.md)。
+
 ## 11. 赭金纪念碑几何
 
 ### MONUMENT · 传统亭阁
@@ -126,6 +178,12 @@
 
 ![MONUMENT · 宇航员与小舟](monumental-ochre-geometry/monument-moonbound.webp)
 
+### MONUMENT · 山坡三角木屋
+
+![MONUMENT · 山坡三角木屋](monumental-ochre-geometry/monument-a-frame.webp)
+
+上半等比裁切并向两侧延展林坡，保留三座木屋的高低关系。下半以深灰排线刻画中央木屋的尖顶、栏杆与架空支柱，背后以一枚赭黄圆衬出建筑轮廓。 [可直接复制的整图提示词](monumental-ochre-geometry/monument-a-frame/monument-a-frame-prompt.md)。
+
 ## 12. 实验字形摄影蒙版
 
 ### DRIVE · 跑车街景
@@ -135,6 +193,14 @@
 ### GROW · 室内绿植
 
 ![GROW](experimental-type-photo-mask/grow.webp)
+
+### MEET · 秋林人与鹿
+
+![MEET](experimental-type-photo-mask/meet.webp)
+
+上半等比裁切并向两侧延展秋林，保留人鹿相触的瞬间。下半将同源秋林嵌入 MEET 字形，手指和鹿鼻越过两个 E 之间的字缝。
+
+[可直接复制的整图提示词](experimental-type-photo-mask/meet/meet-prompt.md) · [上半扩景用原尺寸版式参考](experimental-type-photo-mask/meet/working/outpaint-guide.png)
 
 ## 13. 日系复古手绘字母
 
@@ -360,19 +426,19 @@
 
 ![THE TRATTORIA](japanese-retro-nine-grid/the-trattoria.webp)
 
-[本次实际使用的提示词](japanese-retro-nine-grid/the-trattoria-prompt.txt)
+[可直接复制的整图提示词](japanese-retro-nine-grid/the-trattoria-prompt.txt)
 
 ### FISH ON WHEELS
 
 ![FISH ON WHEELS](japanese-retro-nine-grid/fish-on-wheels.webp)
 
-[本次实际使用的提示词](japanese-retro-nine-grid/fish-on-wheels-prompt.txt)
+[历史制作记录](japanese-retro-nine-grid/fish-on-wheels-prompt.txt)
 
 ### A LIGHT ON THE CLIFF
 
 ![A LIGHT ON THE CLIFF](japanese-retro-nine-grid/a-light-on-the-cliff.webp)
 
-[本次实际使用的提示词](japanese-retro-nine-grid/a-light-on-the-cliff-prompt.txt)
+[可直接复制的整图提示词](japanese-retro-nine-grid/a-light-on-the-cliff-prompt.txt)
 
 ## 31. 霓虹晕染极简象征
 
@@ -380,19 +446,19 @@
 
 ![Watches in Afterglow](neon-diffusion-symbol/watches-in-afterglow.webp)
 
-[本次实际使用的提示词](neon-diffusion-symbol/watches-in-afterglow-prompt.txt)
+[可直接复制的整图提示词](neon-diffusion-symbol/watches-in-afterglow-prompt.txt)
 
 ### Blue Hour Lean
 
 ![Blue Hour Lean](neon-diffusion-symbol/blue-hour-lean.webp)
 
-[本次实际使用的提示词](neon-diffusion-symbol/blue-hour-lean-prompt.txt)
+[可直接复制的整图提示词](neon-diffusion-symbol/blue-hour-lean-prompt.txt)
 
 ### Yaquina Afterglow
 
 ![Yaquina Afterglow](neon-diffusion-symbol/yaquina-afterglow.webp)
 
-[本次实际使用的提示词](neon-diffusion-symbol/yaquina-afterglow-prompt.txt)
+[历史制作记录](neon-diffusion-symbol/yaquina-afterglow-prompt.txt)
 
 ## 32. 伪彩热成像渐变扫描
 
@@ -400,19 +466,19 @@
 
 ![Headphone Thermal Study](false-color-thermal-scan/headphone-thermal-study.webp)
 
-[本次实际使用的提示词](false-color-thermal-scan/headphone-thermal-study-prompt.txt)
+[历史制作记录](false-color-thermal-scan/headphone-thermal-study-prompt.txt)
 
 ### Warm Outline
 
 ![Warm Outline](false-color-thermal-scan/warm-outline-portrait.webp)
 
-[本次实际使用的提示词](false-color-thermal-scan/warm-outline-portrait-prompt.txt)
+[历史制作记录](false-color-thermal-scan/warm-outline-portrait-prompt.txt)
 
 ### Forest Cabin Thermal Study
 
 ![Forest Cabin Thermal Study](false-color-thermal-scan/forest-cabin-thermal-study.webp)
 
-[本次实际使用的提示词](false-color-thermal-scan/forest-cabin-thermal-study-prompt.txt)
+[可直接复制的整图提示词](false-color-thermal-scan/forest-cabin-thermal-study-prompt.txt)
 
 ## 33. 柔光玻璃拟态沉浸式卡片 UI
 
@@ -420,19 +486,19 @@
 
 ![Coastal Glide](soft-glass-card-ui/coastal-glide.webp)
 
-[本次实际使用的提示词](soft-glass-card-ui/coastal-glide-prompt.txt)
+[历史制作记录](soft-glass-card-ui/coastal-glide-prompt.txt)
 
 ### Quiet Crossing
 
 ![Quiet Crossing](soft-glass-card-ui/quiet-crossing.webp)
 
-[本次实际使用的提示词](soft-glass-card-ui/quiet-crossing-prompt.txt)
+[历史制作记录](soft-glass-card-ui/quiet-crossing-prompt.txt)
 
 ### Tea Ritual
 
 ![Tea Ritual](soft-glass-card-ui/tea-ritual.webp)
 
-[本次实际使用的提示词](soft-glass-card-ui/tea-ritual-prompt.txt)
+[历史制作记录](soft-glass-card-ui/tea-ritual-prompt.txt)
 
 ## 34. 雾境摄影叠加粗粝书法字标
 
@@ -440,19 +506,19 @@
 
 ![街角有光](mist-photo-brush-lettering/a-warm-corner.webp)
 
-[本次实际使用的提示词](mist-photo-brush-lettering/a-warm-corner-prompt.txt)
+[可直接复制的整图提示词](mist-photo-brush-lettering/a-warm-corner-prompt.txt)
 
 ### 一桥入雾
 
 ![一桥入雾](mist-photo-brush-lettering/across-the-mist.webp)
 
-[本次实际使用的提示词](mist-photo-brush-lettering/across-the-mist-prompt.txt)
+[历史制作记录](mist-photo-brush-lettering/across-the-mist-prompt.txt)
 
 ### 向晚借风
 
 ![向晚借风](mist-photo-brush-lettering/borrow-the-wind.webp)
 
-[本次实际使用的提示词](mist-photo-brush-lettering/borrow-the-wind-prompt.txt)
+[历史制作记录](mist-photo-brush-lettering/borrow-the-wind-prompt.txt)
 
 ## 35. 冷暖双光长曝光朦胧摄影
 
@@ -460,19 +526,19 @@
 
 ![夜景人像](dual-light-long-exposure-photo/night-portrait.webp)
 
-[本次实际使用的提示词](dual-light-long-exposure-photo/night-portrait-prompt.txt)
+[可直接复制的整图提示词](dual-light-long-exposure-photo/night-portrait-prompt.txt)
 
 ### 帆船
 
 ![帆船](dual-light-long-exposure-photo/sailboat.webp)
 
-[本次实际使用的提示词](dual-light-long-exposure-photo/sailboat-prompt.txt)。复用时，图 1 使用本组[夜景人像海报](dual-light-long-exposure-photo/night-portrait.png)作版式参考，图 2 使用帆船原照。
+[历史制作记录](dual-light-long-exposure-photo/sailboat-prompt.txt)。复用时，图 1 使用本组[夜景人像海报](dual-light-long-exposure-photo/night-portrait.png)作版式参考，图 2 使用帆船原照。
 
 ### 夹克人像
 
 ![夹克人像](dual-light-long-exposure-photo/jacket-portrait.webp)
 
-[本次实际使用的提示词](dual-light-long-exposure-photo/jacket-portrait-prompt.txt)。复用时，图 1 使用本组[帆船海报](dual-light-long-exposure-photo/sailboat.png)作版式参考，图 2 使用夹克人像原照。
+[历史制作记录](dual-light-long-exposure-photo/jacket-portrait-prompt.txt)。复用时，图 1 使用本组[帆船海报](dual-light-long-exposure-photo/sailboat.png)作版式参考，图 2 使用夹克人像原照。
 
 ## 36. 极简线条视觉归纳
 
@@ -480,19 +546,19 @@
 
 ![拱廊 · ARCADE STUDY](minimal-linear-graphic/arcade-study.webp)
 
-柱列轴号、楼层基线和暖光开间。 [本次实际使用的提示词](minimal-linear-graphic/arcade-study-prompt.txt)。复用时，图 1 使用[原尺寸版式参考](dual-light-long-exposure-photo/night-portrait.png)，图 2 使用拱廊原照。
+柱列轴号、楼层基线和暖光开间。 [历史制作记录](minimal-linear-graphic/arcade-study-prompt.txt)。复用时，图 1 使用[原尺寸版式参考](dual-light-long-exposure-photo/night-portrait.png)，图 2 使用拱廊原照。
 
 ### 曲面建筑 · CURVED LATTICE
 
 ![曲面建筑 · CURVED LATTICE](minimal-linear-graphic/curved-lattice.webp)
 
-曲面构件节点、虚线辅助轴和三组编号。 [本次实际使用的提示词](minimal-linear-graphic/curved-lattice-prompt.txt)。复用时，只上传这张[原尺寸编辑底稿](minimal-linear-graphic/references/curved-lattice-edit-base.png)。
+曲面构件节点、虚线辅助轴和三组编号。 [历史制作记录](minimal-linear-graphic/curved-lattice-prompt.txt)。复用时，只上传这张[原尺寸编辑底稿](minimal-linear-graphic/references/curved-lattice-edit-base.png)。
 
 ### 唱片角 · LISTENING CORNER
 
 ![唱片角 · LISTENING CORNER](minimal-linear-graphic/listening-corner.webp)
 
-音箱、唱臂和唱片格的对应引线。 [本次实际使用的提示词](minimal-linear-graphic/listening-corner-prompt.txt)。复用时，只上传这张[原尺寸编辑底稿](minimal-linear-graphic/references/listening-corner-edit-base.png)。
+音箱、唱臂和唱片格的对应引线。 [历史制作记录](minimal-linear-graphic/listening-corner-prompt.txt)。复用时，只上传这张[原尺寸编辑底稿](minimal-linear-graphic/references/listening-corner-edit-base.png)。
 
 ## 37. 中国传统皮影戏
 
@@ -500,19 +566,19 @@
 
 ![晴空一枝](chinese-shadow-puppet/sky-and-blossom.webp)
 
-举臂侧望的人像化为镂刻半身偶，靛青袖纹与白花在暖光下透出。 [本次实际使用的提示词](chinese-shadow-puppet/sky-and-blossom-prompt.txt)。复用时，图 1 使用[原尺寸皮影底稿](chinese-shadow-puppet/references/sky-and-blossom-layout-draft.png)，图 2 使用人像原照。
+举臂侧望的人像化为镂刻半身偶，靛青袖纹与白花在暖光下透出。 [历史制作记录](chinese-shadow-puppet/sky-and-blossom-prompt.txt)。复用时，图 1 使用[原尺寸皮影底稿](chinese-shadow-puppet/references/sky-and-blossom-layout-draft.png)，图 2 使用人像原照。
 
 ### 雪门
 
 ![雪门](chinese-shadow-puppet/snow-gate.webp)
 
-半开的双扇木门做成一具铰接戏偶，门缝透出枝叶和积雪纹样。 [本次实际使用的提示词](chinese-shadow-puppet/snow-gate-prompt.txt)。复用时，图 1 使用[曲面建筑海报作为版式参考](minimal-linear-graphic/references/curved-lattice-edit-base.png)，图 2 使用雪门原照。
+半开的双扇木门做成一具铰接戏偶，门缝透出枝叶和积雪纹样。 [历史制作记录](chinese-shadow-puppet/snow-gate-prompt.txt)。复用时，图 1 使用[曲面建筑海报作为版式参考](minimal-linear-graphic/references/curved-lattice-edit-base.png)，图 2 使用雪门原照。
 
 ### 合构
 
 ![合构](chinese-shadow-puppet/joined-form.webp)
 
-琥珀与朱红薄皮保留两段器物接缝、长孔和三角镂空。 [本次实际使用的提示词](chinese-shadow-puppet/joined-form-prompt.txt)。复用时，图 1 使用[原尺寸雪门海报作为版式参考](chinese-shadow-puppet/references/snow-gate-layout-reference.png)，图 2 使用[原尺寸器物皮影底稿](chinese-shadow-puppet/references/joined-form-layout-draft.png)。
+琥珀与朱红薄皮保留两段器物接缝、长孔和三角镂空。 [历史制作记录](chinese-shadow-puppet/joined-form-prompt.txt)。复用时，图 1 使用[原尺寸雪门海报作为版式参考](chinese-shadow-puppet/references/snow-gate-layout-reference.png)，图 2 使用[原尺寸器物皮影底稿](chinese-shadow-puppet/references/joined-form-layout-draft.png)。
 
 ## 38. 超细长虹玻璃折射摄影
 
@@ -520,19 +586,19 @@
 
 ![音箱 · Woven Sound](ultrafine-fluted-glass-photo/woven-sound.webp)
 
-放宽细肋后，编织网罩和金色按键仍清楚，外围烛台与沙漏形成暖色折射。 [本次实际使用的提示词](ultrafine-fluted-glass-photo/woven-sound-prompt.txt)。复用时，图 1 使用[原尺寸版式参考](chinese-shadow-puppet/references/snow-gate-layout-reference.png)，图 2 使用[原尺寸减疏底稿](ultrafine-fluted-glass-photo/references/woven-sound-spacing-draft.png)。
+放宽细肋后，编织网罩和金色按键仍清楚，外围烛台与沙漏形成暖色折射。 [历史制作记录](ultrafine-fluted-glass-photo/woven-sound-prompt.txt)。复用时，图 1 使用[原尺寸版式参考](chinese-shadow-puppet/references/snow-gate-layout-reference.png)，图 2 使用[原尺寸减疏底稿](ultrafine-fluted-glass-photo/references/woven-sound-spacing-draft.png)。
 
 ### 桥边人像 · Between the Lines
 
 ![桥边人像 · Between the Lines](ultrafine-fluted-glass-photo/between-the-lines.webp)
 
-细肋间距拉开，回望的眼睛保有高通透度，夕光沿两侧形成舒展的竖向色带。 [本次实际使用的提示词](ultrafine-fluted-glass-photo/between-the-lines-prompt.txt)。复用时，图 1 使用[原尺寸版式参考](dual-light-long-exposure-photo/night-portrait.png)，图 2 使用[原尺寸减疏底稿](ultrafine-fluted-glass-photo/references/between-the-lines-spacing-draft.png)。
+细肋间距拉开，回望的眼睛保有高通透度，夕光沿两侧形成舒展的竖向色带。 [历史制作记录](ultrafine-fluted-glass-photo/between-the-lines-prompt.txt)。复用时，图 1 使用[原尺寸版式参考](dual-light-long-exposure-photo/night-portrait.png)，图 2 使用[原尺寸减疏底稿](ultrafine-fluted-glass-photo/references/between-the-lines-spacing-draft.png)。
 
 ### 雨后倒影 · Borrowed Light
 
 ![雨后倒影 · Borrowed Light](ultrafine-fluted-glass-photo/borrowed-light.webp)
 
-水洼中的楼层光带与小涟漪仍可辨，外围冷青与琥珀色折射更舒展。 [本次实际使用的提示词](ultrafine-fluted-glass-photo/borrowed-light-prompt.txt)。复用时，图 1 使用[原尺寸版式参考](ultrafine-fluted-glass-photo/references/between-the-lines-layout-reference.png)，图 2 使用[原尺寸减疏底稿](ultrafine-fluted-glass-photo/references/borrowed-light-spacing-draft.png)。
+水洼中的楼层光带与小涟漪仍可辨，外围冷青与琥珀色折射更舒展。 [历史制作记录](ultrafine-fluted-glass-photo/borrowed-light-prompt.txt)。复用时，图 1 使用[原尺寸版式参考](ultrafine-fluted-glass-photo/references/between-the-lines-layout-reference.png)，图 2 使用[原尺寸减疏底稿](ultrafine-fluted-glass-photo/references/borrowed-light-spacing-draft.png)。
 
 ## 39. 低清柔焦渐变剪影
 
@@ -542,19 +608,19 @@
 
 ![灯塔余光](low-fi-soft-gradient-silhouette/lighthouse-afterglow.webp)
 
-暮色里的灯塔、双窗与水中倒影保留在上半。下半把塔身和小屋收成同一团柔焦色形，约占下半高度八成。 [本次实际使用的提示词](low-fi-soft-gradient-silhouette/lighthouse-afterglow-prompt.txt)。
+暮色里的灯塔、双窗与水中倒影保留在上半。下半把塔身和小屋收成同一团柔焦色形，约占下半高度八成。 [可直接复制的整图提示词](low-fi-soft-gradient-silhouette/lighthouse-afterglow-prompt.txt)。
 
 ### 蓝调侧影
 
 ![蓝调侧影](low-fi-soft-gradient-silhouette/blue-hour-profile.webp)
 
-风吹发丝与仰头的侧脸在上半可见。下半只取头颈到肩线的走势，剪影约占下半高度 84%。 [本次实际使用的提示词](low-fi-soft-gradient-silhouette/blue-hour-profile-prompt.txt)。
+风吹发丝与仰头的侧脸在上半可见。下半只取头颈到肩线的走势，剪影约占下半高度 84%。 [可直接复制的整图提示词](low-fi-soft-gradient-silhouette/blue-hour-profile-prompt.txt)。
 
 ### 雪山湖景
 
 ![雪山湖景](low-fi-soft-gradient-silhouette/snow-peak.webp)
 
-上半原照等比铺满，保留雪峰、云带和湖面灯影。下半将山势收成上窄下展的渐变剪影，主体约占下半高度 76%。 [本次实际使用的提示词](low-fi-soft-gradient-silhouette/snow-peak-prompt.txt)。
+上半原照等比铺满，保留雪峰、云带和湖面灯影。下半将山势收成上窄下展的渐变剪影，主体约占下半高度 76%。 [可直接复制的整图提示词](low-fi-soft-gradient-silhouette/snow-peak-prompt.txt)。
 
 ## 40. 拼豆工艺插画
 
@@ -564,19 +630,19 @@
 
 ![深海帆船](fuse-bead-craft/sailboat-fine.webp)
 
-灰褐帆与暖白帆由细珠分层，保留细桅杆、木甲板和深色舷窗。 [本次实际使用的提示词](fuse-bead-craft/sailboat-fine-prompt.txt)。复用时，图 1 使用上次保存的帆船摄影裁幅，图 2 使用[原尺寸排珠参考](fuse-bead-craft/references/sailboat-fine-bead-layout.png)。
+灰褐帆与暖白帆由细珠分层，保留细桅杆、木甲板和深色舷窗。 [历史制作记录](fuse-bead-craft/sailboat-fine-prompt.txt)。复用时，图 1 使用上次保存的帆船摄影裁幅，图 2 使用[原尺寸排珠参考](fuse-bead-craft/references/sailboat-fine-bead-layout.png)。
 
 ### 橙色指针
 
 ![橙色指针](fuse-bead-craft/compressor-fine.webp)
 
-银灰机身保持原有斜向，保留圆表盘、橙色指针、旋钮和深灰侧面。 [本次实际使用的提示词](fuse-bead-craft/compressor-fine-prompt.txt)。复用时，图 1 使用上次保存的仪表摄影裁幅，图 2 使用[原尺寸排珠参考](fuse-bead-craft/references/compressor-fine-bead-layout.png)。
+银灰机身保持原有斜向，保留圆表盘、橙色指针、旋钮和深灰侧面。 [历史制作记录](fuse-bead-craft/compressor-fine-prompt.txt)。复用时，图 1 使用上次保存的仪表摄影裁幅，图 2 使用[原尺寸排珠参考](fuse-bead-craft/references/compressor-fine-bead-layout.png)。
 
 ### 橄榄绿客厅
 
 ![橄榄绿客厅](fuse-bead-craft/living-room-fine.webp)
 
-细密排珠保留花瓣、沙发转角、前方茶几和右侧木椅的相对关系。 [本次实际使用的提示词](fuse-bead-craft/living-room-fine-prompt.txt)。复用时，图 1 使用完整客厅原照，图 2 使用[原尺寸排珠参考](fuse-bead-craft/references/living-room-fine-bead-layout.png)。
+细密排珠保留花瓣、沙发转角、前方茶几和右侧木椅的相对关系。 [历史制作记录](fuse-bead-craft/living-room-fine-prompt.txt)。复用时，图 1 使用完整客厅原照，图 2 使用[原尺寸排珠参考](fuse-bead-craft/references/living-room-fine-bead-layout.png)。
 
 ## 41. 手绘九格记忆清单
 
@@ -586,19 +652,19 @@
 
 ![Coast at Dusk](hand-drawn-memory-grid/coast-at-dusk.webp)
 
-暮色海岸的棕榈、红瓦、飞鸟和街巷细节，写成九格彩铅蜡笔记忆。 [本次实际使用的提示词](hand-drawn-memory-grid/coast-at-dusk-prompt.txt)。复用时上传对应原照。
+暮色海岸的棕榈、红瓦、飞鸟和街巷细节，写成九格彩铅蜡笔记忆。 [历史制作记录](hand-drawn-memory-grid/coast-at-dusk-prompt.txt)。复用时上传对应原照。
 
 ### A Station by the Sea
 
 ![A Station by the Sea](hand-drawn-memory-grid/seaside-station.webp)
 
-以站棚、黄线车厢与海平线为主，九格也保留月台斜撑、车门和车顶排气格。 [本次实际使用的提示词](hand-drawn-memory-grid/seaside-station-prompt.txt)。复用时上传对应原照。
+以站棚、黄线车厢与海平线为主，九格也保留月台斜撑、车门和车顶排气格。 [历史制作记录](hand-drawn-memory-grid/seaside-station-prompt.txt)。复用时上传对应原照。
 
 ### Blossoms in the Rain
 
 ![Blossoms in the Rain](hand-drawn-memory-grid/blossoms-in-rain.webp)
 
-原照保留撑伞人物和黄列车，左右补展雨湿石墙与樱枝。下半用九格记录人物、樱花、湿石阶等细节。 [下半九格实际提示词](hand-drawn-memory-grid/blossoms-in-rain-lower-prompt.txt) · [上半补展实际提示词](hand-drawn-memory-grid/blossoms-in-rain-upper-prompt.txt)。复用上半补展时上传[原尺寸补展底稿](hand-drawn-memory-grid/references/blossoms-extension-base.png)，复用下半提示词时上传对应原照。
+原照保留撑伞人物和黄列车，左右补展雨湿石墙与樱枝。下半用九格记录人物、樱花、湿石阶等细节。 [历史制作记录（下半）](hand-drawn-memory-grid/blossoms-in-rain-lower-prompt.txt) · [历史制作记录（上半）](hand-drawn-memory-grid/blossoms-in-rain-upper-prompt.txt)。复用上半补展时上传[原尺寸补展底稿](hand-drawn-memory-grid/references/blossoms-extension-base.png)，复用下半提示词时上传对应原照。
 
 ## 42. 高风格化日系游戏原画
 
@@ -608,19 +674,19 @@
 
 ![Paper Sunlight](stylized-japanese-game-key-art/paper-sunlight.webp)
 
-原照保留闭眼、双手举书与斜窗光。下半以赛璐璐头肩近景重绘，完整画出书和双手，超粗标题落在左侧。 [下半插画实际使用的提示词](stylized-japanese-game-key-art/paper-sunlight-prompt.txt)。
+原照保留闭眼、双手举书与斜窗光。下半以赛璐璐头肩近景重绘，完整画出书和双手，超粗标题落在左侧。 [历史制作记录（下半）](stylized-japanese-game-key-art/paper-sunlight-prompt.txt)。
 
 ### The Weight of Red
 
 ![The Weight of Red](stylized-japanese-game-key-art/the-weight-of-red.webp)
 
-红披风背影、斜长影和宽台阶保持原有关系。下半保留巨柱与人物的尺度反差，标题落在右侧暗色门廊。 [下半插画实际使用的提示词](stylized-japanese-game-key-art/the-weight-of-red-prompt.txt)。
+红披风背影、斜长影和宽台阶保持原有关系。下半保留巨柱与人物的尺度反差，标题落在右侧暗色门廊。 [历史制作记录（下半）](stylized-japanese-game-key-art/the-weight-of-red-prompt.txt)。
 
 ### Golden Grade
 
 ![Golden Grade](stylized-japanese-game-key-art/golden-grade.webp)
 
-原照聚焦 57 号缆车、坡道钢轨和飞鸟。下半以金色逆光和硬边色块呈现木车，并交代远处钢桥的桥塔轮廓。 [下半插画实际使用的提示词](stylized-japanese-game-key-art/golden-grade-prompt.txt)。
+原照聚焦 57 号缆车、坡道钢轨和飞鸟。下半以金色逆光和硬边色块呈现木车，并交代远处钢桥的桥塔轮廓。 [历史制作记录（下半）](stylized-japanese-game-key-art/golden-grade-prompt.txt)。
 
 ## 43. 诗意复古杂志半调印刷
 
@@ -630,19 +696,19 @@
 
 ![THAW](poetic-vintage-magazine-halftone/thaw.webp)
 
-雪峰压住铜棕衬线字的部分字脚，林线与木屋仍保留原照的远近层次。 [本次实际使用的提示词](poetic-vintage-magazine-halftone/thaw-prompt.txt)。
+雪峰压住铜棕衬线字的部分字脚，林线与木屋仍保留原照的远近层次。 [可直接复制的整图提示词](poetic-vintage-magazine-halftone/thaw-prompt.txt)。
 
 ### LINGER
 
 ![LINGER](poetic-vintage-magazine-halftone/linger.webp)
 
-仰头的人物撑坐在石墙上，侧影遮住 G 的中下部。灰粉暮色随网点疏密融入纸面。 [本次实际使用的提示词](poetic-vintage-magazine-halftone/linger-prompt.txt)。
+仰头的人物撑坐在石墙上，侧影遮住 G 的中下部。灰粉暮色随网点疏密融入纸面。 [可直接复制的整图提示词](poetic-vintage-magazine-halftone/linger-prompt.txt)。
 
 ### DRIFT
 
 ![DRIFT](poetic-vintage-magazine-halftone/drift.webp)
 
-冰川山脊与深蓝灰大字交叠，雪岸上的两位行人保持原照的小尺度。 [本次实际使用的提示词](poetic-vintage-magazine-halftone/drift-prompt.txt)。
+冰川山脊与深蓝灰大字交叠，雪岸上的两位行人保持原照的小尺度。 [可直接复制的整图提示词](poetic-vintage-magazine-halftone/drift-prompt.txt)。
 
 ## 44. 圆弧矩阵摄影镶嵌
 
@@ -652,19 +718,19 @@
 
 ![Ice Strata](arc-grid-photo-inlay/ice-strata.webp)
 
-上半延展两侧的冰岸与水面，保留冰山、深色冰纹和主要倒影。下半 6 列 × 4 行窗口串起冰层与水线。 [满版版式完整提示词](arc-grid-photo-inlay/ice-strata-prompt.txt) · [下半矩阵实际生成提示词](arc-grid-photo-inlay/ice-strata-lower-prompt.txt) · [上半补展实际生成提示词](arc-grid-photo-inlay/ice-strata-upper-prompt.txt) · [原尺寸上半补展底稿](arc-grid-photo-inlay/references/ice-strata-upper-reference.png)。
+上半延展两侧的冰岸与水面，保留冰山、深色冰纹和主要倒影。下半 6 列 × 4 行窗口串起冰层与水线。 [可直接复制的整图提示词](arc-grid-photo-inlay/ice-strata-prompt.txt) · [历史制作记录（下半）](arc-grid-photo-inlay/ice-strata-lower-prompt.txt) · [历史制作记录（上半）](arc-grid-photo-inlay/ice-strata-upper-prompt.txt) · [原尺寸上半补展底稿](arc-grid-photo-inlay/references/ice-strata-upper-reference.png)。
 
 ### Coastward
 
 ![Coastward](arc-grid-photo-inlay/coastward.webp)
 
-上半等比裁去天空和部分前景草地，保留整车、车顶行李架与轮胎。下半 6 列 × 3 行窗口沿同一车身取景。 [满版版式完整提示词](arc-grid-photo-inlay/coastward-prompt.txt) · [下半矩阵实际生成提示词](arc-grid-photo-inlay/coastward-lower-prompt.txt)。
+上半等比裁去天空和部分前景草地，保留整车、车顶行李架与轮胎。下半 6 列 × 3 行窗口沿同一车身取景。 [可直接复制的整图提示词](arc-grid-photo-inlay/coastward-prompt.txt) · [历史制作记录（下半）](arc-grid-photo-inlay/coastward-lower-prompt.txt)。
 
 ### Mist Islet
 
 ![Mist Islet](arc-grid-photo-inlay/mist-islet.webp)
 
-上半只向两侧延展雾和湖面，保留松树树梢、黄屋、倒影与红船。下半 5 列 × 4 行窗口保持黄屋居中、红船在左下的关系。 [满版版式完整提示词](arc-grid-photo-inlay/mist-islet-prompt.txt) · [下半矩阵实际生成提示词](arc-grid-photo-inlay/mist-islet-lower-prompt.txt) · [上半补展实际生成提示词](arc-grid-photo-inlay/mist-islet-upper-prompt.txt) · [原尺寸上半补展底稿](arc-grid-photo-inlay/references/mist-islet-upper-reference.png)。
+上半只向两侧延展雾和湖面，保留松树树梢、黄屋、倒影与红船。下半 5 列 × 4 行窗口保持黄屋居中、红船在左下的关系。 [可直接复制的整图提示词](arc-grid-photo-inlay/mist-islet-prompt.txt) · [历史制作记录（下半）](arc-grid-photo-inlay/mist-islet-lower-prompt.txt) · [历史制作记录（上半）](arc-grid-photo-inlay/mist-islet-upper-prompt.txt) · [原尺寸上半补展底稿](arc-grid-photo-inlay/references/mist-islet-upper-reference.png)。
 
 ## 45. 满版摄影巨型标题
 
@@ -674,19 +740,19 @@
 
 ![OFF DUTY](full-bleed-photo-oversized-title/off-duty.webp)
 
-上下复用同一横幅原照。暖灰金巨字局部藏在人物和前景道具后，保留盔甲、头盔与餐盒。此例采用原照直接排版。 [实际使用的完整排版说明](full-bleed-photo-oversized-title/off-duty-layout.txt)。
+上下复用同一横幅原照。暖灰金巨字局部藏在人物和前景道具后，保留盔甲、头盔与餐盒。此例采用原照直接排版。 [历史制作记录](full-bleed-photo-oversized-title/off-duty-layout.txt)。
 
 ### STILL
 
 ![STILL](full-bleed-photo-oversized-title/still.webp)
 
-上下沿用补展过的雾湖摄影横幅。下半的雾白巨字穿过松林与岛岸，黄屋和左下红船保持清楚。 [下半实际生成提示词](full-bleed-photo-oversized-title/still-prompt.txt) · [原尺寸摄影参考](full-bleed-photo-oversized-title/references/still-photo-reference.png)。
+上下沿用补展过的雾湖摄影横幅。下半的雾白巨字穿过松林与岛岸，黄屋和左下红船保持清楚。 [历史制作记录（下半）](full-bleed-photo-oversized-title/still-prompt.txt) · [原尺寸摄影参考](full-bleed-photo-oversized-title/references/still-photo-reference.png)。
 
 ### SUNTRACK
 
 ![SUNTRACK](full-bleed-photo-oversized-title/suntrack.webp)
 
-等比取景保留车尾、鸭尾、尾灯与后轮。下半乳白色斜体巨字约占区高八成，被车身局部遮住。 [下半实际生成提示词](full-bleed-photo-oversized-title/suntrack-prompt.txt) · [原尺寸摄影参考](full-bleed-photo-oversized-title/references/suntrack-photo-reference.png)。
+等比取景保留车尾、鸭尾、尾灯与后轮。下半乳白色斜体巨字约占区高八成，被车身局部遮住。 [历史制作记录（下半）](full-bleed-photo-oversized-title/suntrack-prompt.txt) · [原尺寸摄影参考](full-bleed-photo-oversized-title/references/suntrack-photo-reference.png)。
 
 ## 46. 场景中的拍立得
 
@@ -696,19 +762,19 @@
 
 ![Window Light](in-scene-instant-photo/window-light.webp)
 
-乘客剪影、车门和金色车窗贯穿外景。手持奶油金相纸在同一车厢中重现窗光，宽下边印着一行标题和一句观察。 [本次实际使用的提示词](in-scene-instant-photo/window-light-prompt.txt)。
+乘客剪影、车门和金色车窗贯穿外景。手持奶油金相纸在同一车厢中重现窗光，宽下边印着一行标题和一句观察。 [可直接复制的整图提示词](in-scene-instant-photo/window-light-prompt.txt)。
 
 ### Tea in Light
 
 ![Tea in Light](in-scene-instant-photo/tea-in-light.webp)
 
-左下的象牙白相纸与桌沿错开，露出受光的侧脸、青花杯和桌面。卡内复现端杯瞬间，标题和观察句均在相纸宽下边。 [本次实际使用的提示词](in-scene-instant-photo/tea-in-light-prompt.txt)。
+左下的象牙白相纸与桌沿错开，露出受光的侧脸、青花杯和桌面。卡内复现端杯瞬间，标题和观察句均在相纸宽下边。 [可直接复制的整图提示词](in-scene-instant-photo/tea-in-light-prompt.txt)。
 
 ### Rain on Approach
 
 ![Rain on Approach](in-scene-instant-photo/rain-on-approach.webp)
 
-右下手持浅麦黄色相纸，保留外景钢桥、湿路反光和近处黄出租车。卡内以同源照片重现街景，部分路牌与车流细节略有出入。 [本次实际使用的提示词](in-scene-instant-photo/rain-on-approach-prompt.txt)。
+右下手持浅麦黄色相纸，保留外景钢桥、湿路反光和近处黄出租车。卡内以同源照片重现街景，部分路牌与车流细节略有出入。 [可直接复制的整图提示词](in-scene-instant-photo/rain-on-approach-prompt.txt)。
 
 ## 47. 疾线建筑观察
 
@@ -720,19 +786,19 @@
 
 ![Turning Stair](rapid-ink-architecture-study/turning-stair.webp)
 
-俯视旋梯从近处木扶手绕向井底。多层栏杆、扇形踏步和扶栏人影交代纵深。 [本次实际使用的提示词](rapid-ink-architecture-study/turning-stair-prompt.txt)。
+俯视旋梯从近处木扶手绕向井底。多层栏杆、扇形踏步和扶栏人影交代纵深。 [历史制作记录](rapid-ink-architecture-study/turning-stair-prompt.txt)。
 
 ### Recurring Arch
 
 ![Recurring Arch](rapid-ink-architecture-study/recurring-arch.webp)
 
-连续拱肋、落地柱列和铺地阴影沿同一方向递减，保留长廊的透视节奏。 [本次实际使用的提示词](rapid-ink-architecture-study/recurring-arch-prompt.txt)。
+连续拱肋、落地柱列和铺地阴影沿同一方向递减，保留长廊的透视节奏。 [历史制作记录](rapid-ink-architecture-study/recurring-arch-prompt.txt)。
 
 ### Framed Dome
 
 ![Framed Dome](rapid-ink-architecture-study/framed-dome.webp)
 
-近处三联石拱和柱基形成框景，远处穹顶保留尖顶、肋线和可见开口。 [本次实际使用的提示词](rapid-ink-architecture-study/framed-dome-prompt.txt)。
+近处三联石拱和柱基形成框景，远处穹顶保留尖顶、肋线和可见开口。 [历史制作记录](rapid-ink-architecture-study/framed-dome-prompt.txt)。
 
 ## 48. 字符网点旅行拼贴
 
@@ -742,19 +808,19 @@
 
 ![WINDOW SEAT](ascii-halftone-travel-collage/window-seat.webp)
 
-上半等比裁取窗边侧脸、红金盔甲与纸袋，纸袋底部和部分腿部位于取景之外。下半将字符和复印网点集中在护甲暗部与窗框边缘。上下区分别为 768 和 680 像素。 [本次实际使用的提示词](ascii-halftone-travel-collage/window-seat-prompt.txt)。
+上半等比裁取窗边侧脸、红金盔甲与纸袋，纸袋底部和部分腿部位于取景之外。下半将字符和复印网点集中在护甲暗部与窗框边缘。上下区分别为 768 和 680 像素。 [历史制作记录](ascii-halftone-travel-collage/window-seat-prompt.txt)。
 
 ### FOREST LIGHT
 
 ![FOREST LIGHT](ascii-halftone-travel-collage/forest-light.webp)
 
-上半保留原照的林间取景与光色。下半保留回望、迎光发丝和屈膝坐姿，以字符和复印网点收住右侧林影与深色裤腿。上下各 724 像素。 [本次实际使用的提示词](ascii-halftone-travel-collage/forest-light-prompt.txt)。
+上半保留原照的林间取景与光色。下半保留回望、迎光发丝和屈膝坐姿，以字符和复印网点收住右侧林影与深色裤腿。上下各 724 像素。 [历史制作记录](ascii-halftone-travel-collage/forest-light-prompt.txt)。
 
 ### QUIET GREEN
 
 ![QUIET GREEN](ascii-halftone-travel-collage/quiet-green.webp)
 
-上半等比取景，保留正视镜头的表情与交叠双手。下半呈现完整屈膝坐姿和两只素面绿鞋，印纹沿衣料暗部与竖纹墙边渐疏。上下各 724 像素。 [本次实际使用的提示词](ascii-halftone-travel-collage/quiet-green-prompt.txt)。
+上半等比取景，保留正视镜头的表情与交叠双手。下半呈现完整屈膝坐姿和两只素面绿鞋，印纹沿衣料暗部与竖纹墙边渐疏。上下各 724 像素。 [历史制作记录](ascii-halftone-travel-collage/quiet-green-prompt.txt)。
 
 ## 49. 冷调高反差摄影拼贴
 
@@ -764,19 +830,19 @@
 
 ![Salt Light](cool-contrast-photo-collage/salt-light.webp)
 
-上半保留海平线、回望侧脸和左下浪花。下半让浪纹穿过发丝与针织衣的错版切片，保留侧脸的一处暖光。 [本次实际使用的提示词](cool-contrast-photo-collage/salt-light-prompt.txt)。
+上半保留海平线、回望侧脸和左下浪花。下半让浪纹穿过发丝与针织衣的错版切片，保留侧脸的一处暖光。 [历史制作记录](cool-contrast-photo-collage/salt-light-prompt.txt)。
 
 ### Ring Field
 
 ![Ring Field](cool-contrast-photo-collage/ring-field.webp)
 
-上半两侧沿暗空和岩地扩景，保留月牙、短塔与探测车。下半让斜向的银灰环纹跨过数道切口，低处保留探测车与锈褐色岩地。 [本次实际使用的提示词](cool-contrast-photo-collage/ring-field-prompt.txt)。
+上半两侧沿暗空和岩地扩景，保留月牙、短塔与探测车。下半让斜向的银灰环纹跨过数道切口，低处保留探测车与锈褐色岩地。 [历史制作记录](cool-contrast-photo-collage/ring-field-prompt.txt)。
 
 ### Mist Line
 
 ![Mist Line](cool-contrast-photo-collage/mist-line.webp)
 
-上半等比裁去大部分空天和少量底边，保留远山和斜草坡。下半错叠浅灰雾带与深绿林线，保留远近层次。 [本次实际使用的提示词](cool-contrast-photo-collage/mist-line-prompt.txt)。
+上半等比裁去大部分空天和少量底边，保留远山和斜草坡。下半错叠浅灰雾带与深绿林线，保留远近层次。 [历史制作记录](cool-contrast-photo-collage/mist-line-prompt.txt)。
 
 ## 50. 暖白超现实摄影拼贴
 
@@ -786,7 +852,7 @@
 
 ![Street Breath](minimal-surreal-photo-collage/street-breath.webp)
 
-上半保留原照中央的楼尖、蒸汽和行人，两侧延展街景。下半把黑白街谷接入放大的铜管，暖铜色取自原照的车灯与湿路反光。 [本次实际使用的提示词](minimal-surreal-photo-collage/street-breath/street-breath-prompt.md)。
+上半保留原照中央的楼尖、蒸汽和行人，两侧延展街景。下半把黑白街谷接入放大的铜管，暖铜色取自原照的车灯与湿路反光。 [可直接复制的整图提示词](minimal-surreal-photo-collage/street-breath/street-breath-prompt.md)。
 
 [原尺寸扩景版式参考](minimal-surreal-photo-collage/street-breath/working/outpaint-guide.png)用于上半补边，[对应原照](minimal-surreal-photo-collage/street-breath/source-photo.jpg)用于下半拼贴。
 
@@ -794,7 +860,7 @@
 
 ![Quiet Frequency](minimal-surreal-photo-collage/quiet-frequency.webp)
 
-上半略裁空天和最靠近镜头的石阶，两侧延展环境。下半将薄屋顶转成黑胶唱片，树干穿过唱片中心，橄榄绿树冠保留一处原照色彩。 [本次实际使用的提示词](minimal-surreal-photo-collage/quiet-frequency/quiet-frequency-prompt.md)。
+上半略裁空天和最靠近镜头的石阶，两侧延展环境。下半将薄屋顶转成黑胶唱片，树干穿过唱片中心，橄榄绿树冠保留一处原照色彩。 [可直接复制的整图提示词](minimal-surreal-photo-collage/quiet-frequency/quiet-frequency-prompt.md)。
 
 [原尺寸扩景版式参考](minimal-surreal-photo-collage/quiet-frequency/working/outpaint-guide.png)用于上半补边，[对应原照](minimal-surreal-photo-collage/quiet-frequency/source-photo.jpg)用于下半拼贴。
 
@@ -802,7 +868,7 @@
 
 ![Paper Glow](minimal-surreal-photo-collage/paper-glow.webp)
 
-上半等比裁取台灯、柜面与圆镜。下半保留灰调灯身，让暖光从灯罩下折成一段琥珀色纸阶。 [本次实际使用的提示词](minimal-surreal-photo-collage/paper-glow/paper-glow-prompt.txt)。
+上半等比裁取台灯、柜面与圆镜。下半保留灰调灯身，让暖光从灯罩下折成一段琥珀色纸阶。 [历史制作记录](minimal-surreal-photo-collage/paper-glow/paper-glow-prompt.txt)。
 
 [对应原照](minimal-surreal-photo-collage/paper-glow/source-photo.jpg)用于上半取景和下半拼贴。
 
@@ -814,7 +880,7 @@
 
 ![Still Water](retro-screenprint-flat-poster/still-water.webp)
 
-上半保留临水屋群、窄窗暖光与倒影。下半上移并放大炭灰屋群，露纸细粒集中在屋面与层叠水岸，琥珀窗带保持醒目。 [本次实际使用的提示词](retro-screenprint-flat-poster/still-water/still-water-prompt.md)。
+上半保留临水屋群、窄窗暖光与倒影。下半上移并放大炭灰屋群，露纸细粒集中在屋面与层叠水岸，琥珀窗带保持醒目。 [可直接复制的整图提示词](retro-screenprint-flat-poster/still-water/still-water-prompt.md)。
 
 [原尺寸下半插画参考](retro-screenprint-flat-poster/still-water/working/illustration-reference.png)用于本次肌理与版式修订。
 
@@ -822,7 +888,7 @@
 
 ![Late Light](retro-screenprint-flat-poster/late-light.webp)
 
-上半沿用照出斜影的车库取景，招牌和车牌字样已局部清理。下半放大车库、砖红檐带与米色老车，色面保留细纸纤维和手工印边。 [本次实际使用的提示词](retro-screenprint-flat-poster/late-light/late-light-prompt.md)。
+上半沿用照出斜影的车库取景，招牌和车牌字样已局部清理。下半放大车库、砖红檐带与米色老车，色面保留细纸纤维和手工印边。 [可直接复制的整图提示词](retro-screenprint-flat-poster/late-light/late-light-prompt.md)。
 
 [原尺寸下半插画参考](retro-screenprint-flat-poster/late-light/working/illustration-reference.png)用于本次肌理与版式修订。
 
@@ -830,7 +896,7 @@
 
 ![Black Tide](retro-screenprint-flat-poster/black-tide.webp)
 
-上半保留黑礁、浪层与黄衣人的尺度关系。下半抬高巨岩与蓝灰浪块，深色区域的细墨粒可辨，黄衣人仍是小尺度的暖色落点。 [本次实际使用的提示词](retro-screenprint-flat-poster/black-tide/black-tide-prompt.md)。
+上半保留黑礁、浪层与黄衣人的尺度关系。下半抬高巨岩与蓝灰浪块，深色区域的细墨粒可辨，黄衣人仍是小尺度的暖色落点。 [可直接复制的整图提示词](retro-screenprint-flat-poster/black-tide/black-tide-prompt.md)。
 
 [原尺寸下半插画参考](retro-screenprint-flat-poster/black-tide/working/illustration-reference.png)用于本次肌理与版式修订。
 
@@ -842,7 +908,7 @@
 
 ![Soft Stems](black-field-instant-photo-breakout/soft-stems.webp)
 
-上半保留花束与局部持花动作，两侧延展环境。下半的奶黄色花瓣越过白相纸上沿，奶黄、橙粉与白花保留真实摄影质感。纯黑约占下半 67%。 [本次实际使用的提示词](black-field-instant-photo-breakout/soft-stems/soft-stems-prompt.md)。
+上半保留花束与局部持花动作，两侧延展环境。下半的奶黄色花瓣越过白相纸上沿，奶黄、橙粉与白花保留真实摄影质感。纯黑约占下半 67%。 [可直接复制的整图提示词](black-field-instant-photo-breakout/soft-stems/soft-stems-prompt.md)。
 
 [原尺寸扩景版式参考](black-field-instant-photo-breakout/soft-stems/working/outpaint-guide.png)用于上半补边，[对应原照](black-field-instant-photo-breakout/soft-stems/source-photo.jpg)用于下半近摄相纸。
 
@@ -850,7 +916,7 @@
 
 ![Pine Shore](black-field-instant-photo-breakout/pine-shore.webp)
 
-上半等比取景，保留两侧松枝、湖面与远岸。下半采用近方形内窗，只让右侧一截松梢越过白边。纯黑约占下半 66.5%。 [本次实际使用的提示词](black-field-instant-photo-breakout/pine-shore/pine-shore-prompt.md)。
+上半等比取景，保留两侧松枝、湖面与远岸。下半采用近方形内窗，只让右侧一截松梢越过白边。纯黑约占下半 66.5%。 [可直接复制的整图提示词](black-field-instant-photo-breakout/pine-shore/pine-shore-prompt.md)。
 
 [对应原照](black-field-instant-photo-breakout/pine-shore/source-photo.jpg)用于上半取景和下半相纸生成。
 
@@ -858,6 +924,6 @@
 
 ![Sea Stack](black-field-instant-photo-breakout/sea-stack.webp)
 
-上半等比取景，保留主礁、海雾、斜向浪线与主要倒影。下半主礁的峰顶略越相纸上沿，小礁、海雾与倒影留在内窗。纯黑约占下半 67%。 [本次实际使用的提示词](black-field-instant-photo-breakout/sea-stack/sea-stack-prompt.md)。
+上半等比取景，保留主礁、海雾、斜向浪线与主要倒影。下半主礁的峰顶略越相纸上沿，小礁、海雾与倒影留在内窗。纯黑约占下半 67%。 [可直接复制的整图提示词](black-field-instant-photo-breakout/sea-stack/sea-stack-prompt.md)。
 
 [对应原照](black-field-instant-photo-breakout/sea-stack/source-photo.jpg)用于上半取景和下半相纸生成。
