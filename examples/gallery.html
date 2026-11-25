@@ -3,47 +3,32 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#11100f">
 <title>画风图鉴 · 照片双区风格海报</title>
 <style>
 :root {
-  color-scheme: light dark;
-  --paper: #f4f6f9;
-  --sheet: #fdfdff;
-  --ink: #17243a;
-  --muted: #4d5e75;
-  --rule: #74849c;
-  --line: #d5deeb;
-  --mat: #e5ebf4;
-  --accent: #1644bd;
-  --tint: #e6edfe;
-  --on-accent: #fdfdff;
-  --cover: #182b4a;
-  --cover-ink: #f2f5ff;
-  --cover-muted: #bdcdee;
+  color-scheme: dark;
+  --paper: #11100f;
+  --sheet: #1d1a17;
+  --ink: #f2ebe1;
+  --muted: #bfb2a4;
+  --rule: #847364;
+  --line: #41362e;
+  --mat: #0b0a09;
+  --accent: #e9b981;
+  --accent-hover: #f5c996;
+  --tint: #34271e;
+  --on-accent: #22160e;
+  --cover: #1b1613;
+  --cover-ink: #f5ede1;
+  --cover-muted: #d0bdae;
   --space: clamp(1rem, 3.5vw, 3.25rem);
   --gutter: clamp(.75rem, 1.45vw, 1.5rem);
   --dock-clearance: calc(6.5rem + env(safe-area-inset-bottom));
   --sans: "Microsoft YaHei UI", "PingFang SC", "Noto Sans CJK SC", "Segoe UI", system-ui, sans-serif;
+  --display: "Noto Serif SC", "Source Han Serif SC", "Songti SC", SimSun, serif;
   --mono: Consolas, "SFMono-Regular", ui-monospace, monospace;
   --ease: cubic-bezier(.2,.72,.25,1);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --paper: #151d2b;
-    --sheet: #202b3d;
-    --ink: #eef3fc;
-    --muted: #bdcbe1;
-    --rule: #7e92b0;
-    --line: #41516a;
-    --mat: #2b3a51;
-    --accent: #98b5ff;
-    --tint: #233660;
-    --on-accent: #15274c;
-    --cover: #1b2d4e;
-    --cover-ink: #f2f5ff;
-    --cover-muted: #bdcdee;
-  }
 }
 
 * { box-sizing: border-box; }
@@ -62,12 +47,14 @@ button:disabled, button[aria-disabled="true"] { color: var(--muted); cursor: def
 a { color: var(--accent); text-underline-offset: .26em; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .primary { color: var(--on-accent); background: var(--accent); border-color: var(--accent); }
-.primary:hover:not(:disabled):not([aria-disabled="true"]) { color: var(--on-accent); background: var(--accent); }
+.primary:hover:not(:disabled):not([aria-disabled="true"]) { color: var(--on-accent); background: var(--accent-hover); border-color: var(--accent-hover); }
 .primary:disabled { color: var(--muted); background: var(--mat); border-color: var(--line); }
 button[aria-pressed="true"]:not(.image-button) { color: var(--accent); background: var(--tint); border-color: var(--accent); }
 
 .issue-line, footer { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
-.issue-line { min-height: 4rem; border-bottom: 1px solid var(--rule); font-size: .86rem; }
+.issue-line { min-height: 4rem; border-bottom: 1px solid var(--line); font-size: .86rem; }
+.issue-line a { color: var(--muted); text-decoration-color: var(--rule); }
+.issue-line a:hover { color: var(--accent-hover); }
 .brand { display: flex; align-items: center; gap: .55rem; font-weight: 700; }
 .brand-mark {
   display: inline-block; width: .8rem; height: 1.02rem; border: 1px solid currentColor;
@@ -84,22 +71,30 @@ footer { margin-top: clamp(1.5rem, 4vw, 3rem); border-top: 1px solid var(--line)
 .cover-story {
   min-width: 0; display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start;
   gap: .85rem; padding: clamp(1.25rem, 3.25vw, 3rem);
-  background: var(--cover); color: var(--cover-ink);
+  background: linear-gradient(145deg, #2a201a, var(--cover) 68%);
+  color: var(--cover-ink); border: 1px solid var(--line);
 }
-.cover-story h1 { font-size: clamp(3.1rem, 5.3vw, 5.85rem); line-height: 1; letter-spacing: -.046em; }
+.cover-story h1 {
+  font-family: var(--display); font-size: clamp(3.1rem, 5.5vw, 5.85rem);
+  font-weight: 700; line-height: 1.04; letter-spacing: -.025em;
+}
 .cover-story h1 span { display: block; }
-.cover-story h1 span + span { color: var(--cover-muted); }
+.cover-story h1 span + span { color: var(--accent); }
 .cover-story p { color: var(--cover-muted); font-size: .87rem; }
-#cover-count { display: block; margin-bottom: .32rem; font: .9rem/1.45 var(--mono); color: var(--cover-ink); }
+#cover-count { display: block; margin-bottom: .32rem; font: 600 .86rem/1.45 var(--sans); color: var(--cover-ink); font-variant-numeric: tabular-nums; }
 .cover-link {
   display: inline-flex; min-height: 2.75rem; align-items: center; padding: .35rem .75rem;
-  border: 1px solid var(--cover-muted); color: var(--cover-ink); text-decoration: none; font-size: .85rem;
+  border: 1px solid var(--rule); color: var(--cover-ink); text-decoration: none; font-size: .85rem;
 }
-.cover-link:hover { background: var(--cover-ink); color: var(--cover); }
+.cover-link:hover { border-color: var(--accent); background: var(--tint); color: var(--accent-hover); }
 .cover-story :focus-visible { outline-color: var(--cover-ink); }
 
 .showcase { min-width: 0; display: flex; flex-direction: column; }
-.showcase h2 { color: var(--muted); font-size: .8rem; font-weight: 600; margin-bottom: .48rem; }
+.showcase h2 {
+  display: flex; align-items: center; gap: .7rem; color: var(--muted); font-size: .8rem;
+  font-weight: 600; letter-spacing: .09em; margin-bottom: .62rem;
+}
+.showcase h2::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 .feature-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: var(--gutter); }
 .feature { min-width: 0; }
 .image-button {
@@ -156,8 +151,8 @@ input::placeholder { color: var(--muted); }
 .comparison-bar {
   position: fixed; z-index: 2; left: 50%; bottom: calc(.7rem + env(safe-area-inset-bottom)); transform: translateX(-50%);
   width: min(35rem,calc(100% - 1.4rem)); display: grid; grid-template-columns: auto minmax(0,1fr) auto auto; align-items: center;
-  gap: .36rem; padding: .44rem; border: 1px solid var(--rule); border-top: 3px solid var(--accent);
-  background: var(--sheet); box-shadow: 0 .45rem 1.65rem rgb(16 22 17 / .17); font-size: .83rem;
+  gap: .36rem; padding: .44rem; border: 1px solid var(--line); border-top-color: var(--accent);
+  background: var(--sheet); box-shadow: 0 .8rem 2.25rem rgb(0 0 0 / .55); font-size: .83rem;
 }
 .comparison-picks { display: flex; gap: .25rem; list-style: none; padding: 0; margin: 0; }
 .comparison-picks img { display: block; width: 1.6rem; height: 2.2rem; object-fit: contain; background: var(--mat); }
@@ -166,13 +161,14 @@ input::placeholder { color: var(--muted); }
 dialog {
   --dialog-gutter: clamp(.8rem,2.1vw,1.6rem);
   width: min(70rem,calc(100% - 1.5rem)); max-height: calc(100dvh - 1.5rem);
-  border: 1px solid var(--rule); padding: 0; background: var(--sheet); color: var(--ink); overflow: auto;
+  border: 1px solid var(--line); padding: 0; background: var(--sheet); color: var(--ink); overflow: auto;
+  box-shadow: 0 1.7rem 4rem rgb(0 0 0 / .55);
   overscroll-behavior: contain;
 }
 dialog[data-view="detail"] { width: min(52rem,calc(100% - 1.5rem)); }
 dialog[data-view="specimen"] { width: min(53rem,calc(100% - 1.5rem)); }
 dialog[data-view="copy"] { width: min(35rem,calc(100% - 1.5rem)); }
-dialog::backdrop { background: rgb(15 21 17 / .63); }
+dialog::backdrop { background: rgb(8 7 6 / .79); }
 .dialog-header {
   position: sticky; top: 0; z-index: 1; display: flex; justify-content: space-between; align-items: center; gap: .65rem;
   padding: .48rem var(--dialog-gutter); border-bottom: 1px solid var(--line); background: var(--sheet);
@@ -217,7 +213,7 @@ dialog::backdrop { background: rgb(15 21 17 / .63); }
 .specimen-image:first-child img { bottom: 0; }
 .specimen-image[data-side="original"] { clip-path: inset(0 calc(100% - var(--reveal)) 0 0); }
 .specimen-image[data-side="original"] img { top: 0; }
-.specimen-divider { position: absolute; top: 0; bottom: 0; left: var(--reveal); width: 2px; transform: translateX(-50%); background: #fffefa; pointer-events: none; }
+.specimen-divider { position: absolute; top: 0; bottom: 0; left: var(--reveal); width: 2px; transform: translateX(-50%); background: var(--cover-ink); pointer-events: none; }
 .specimen-divider::after {
   content: "↔"; position: absolute; display: grid; place-items: center; top: 50%; left: 50%; transform: translate(-50%,-50%);
   width: 2.25rem; height: 2.25rem; background: var(--cover); color: var(--cover-ink); border: 1px solid var(--cover-ink);
@@ -228,20 +224,23 @@ dialog::backdrop { background: rgb(15 21 17 / .63); }
 .specimen-range::-moz-range-thumb { width: 1px; height: 100%; }
 .specimen-caption { display: flex; justify-content: space-between; gap: .65rem; margin: .35rem 0 .8rem; color: var(--muted); font-size: .85rem; }
 
-/* Action feedback uses the same rust accent as the style index. */
+/* Use the same amber accent for focus, selection, and action feedback. */
 .cover-link { gap: .64rem; padding: .24rem .24rem .24rem .73rem; }
 .cover-arrow {
   display: grid; place-items: center; width: 1.95rem; height: 1.95rem;
   color: var(--on-accent); background: var(--accent); font: 1.15rem/1 var(--sans);
 }
-.cover-link:hover .cover-arrow { color: var(--cover-ink); background: var(--cover); }
+.cover-link:hover .cover-arrow { background: var(--accent-hover); }
 
 .feature > .image-button, .style > .image-button { position: relative; }
+.feature > .image-button::after, .style > .image-button::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none; border: 1px solid rgb(243 221 191 / .22);
+}
 .preview-arrow {
   position: absolute; right: .45rem; bottom: .45rem;
   display: grid; place-items: center; width: 2.05rem; height: 2.05rem;
-  background: var(--cover); color: var(--cover-ink);
-  border: 1px solid var(--cover-ink); font-size: 1rem; line-height: 1;
+  background: var(--sheet); color: var(--ink);
+  border: 1px solid var(--rule); font-size: 1rem; line-height: 1;
   pointer-events: none;
 }
 .image-button:focus-visible .preview-arrow, .style:has(.pick[aria-pressed="true"]) .preview-arrow {
@@ -325,7 +324,6 @@ button[data-action="specimen"]::before { content: "↔" / ""; font-family: var(-
   .cover-story { padding: 1.05rem 1rem; gap: .55rem; }
   .cover-story h1 { font-size: clamp(2.6rem,10vw,4.6rem); }
   .cover-story h1 span { display: inline; }
-  .cover-story h1 span + span { color: inherit; }
   .cover-story p { font-size: .81rem; }
   .cover-link { min-height: 2.75rem; }
   .catalog-tools { position: static; grid-template-columns: minmax(0,1fr) auto; }
